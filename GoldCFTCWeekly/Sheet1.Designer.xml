@@ -1,0 +1,5 @@
+﻿<hostitem:hostItem hostitem:baseType="Microsoft.Office.Tools.Excel.WorksheetBase" hostitem:namespace="GoldCFTCWeekly" hostitem:className="Sheet1" hostitem:identifier="Sheet1" hostitem:primaryCookie="Sheet1" hostitem:factoryType="Microsoft.Office.Tools.Excel.Factory" hostitem:startupIndex="1" xmlns:hostitem="http://schemas.microsoft.com/2004/VisualStudio/Tools/Applications/HostItem.xsd">
+  <hostitem:hostControl hostitem:name="表8" hostitem:identifier="表8" hostitem:type="Microsoft.Office.Tools.Excel.ListObject" hostitem:primaryCookie="Sheet1:表8" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="Count" hostitem:identifier="Count" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="Count" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="discount" hostitem:identifier="discount" hostitem:type="Microsoft.Office.Tools.Excel.NamedRange" hostitem:primaryCookie="discount" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+</hostitem:hostItem>

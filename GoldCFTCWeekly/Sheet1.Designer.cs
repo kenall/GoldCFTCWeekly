@@ -26,6 +26,8 @@ namespace GoldCFTCWeekly {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "15.0.0.0")]
         private global::System.Object missing = global::System.Type.Missing;
         
+        internal Microsoft.Office.Tools.Excel.Controls.Button button1;
+        
         /// 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -144,6 +146,7 @@ namespace GoldCFTCWeekly {
             this.表8 = Globals.Factory.CreateListObject(null, null, "Sheet1:表8", "表8", this);
             this.Count = Globals.Factory.CreateNamedRange(null, null, "Count", "Count", this);
             this.discount = Globals.Factory.CreateNamedRange(null, null, "discount", "discount", this);
+            this.button1 = new Microsoft.Office.Tools.Excel.Controls.Button(Globals.Factory, this.ItemProvider, this.HostContext, "3F589F41D36498341533BDE73D9DA96A113F43", "3F589F41D36498341533BDE73D9DA96A113F43", this, "button1");
         }
         
         /// 
@@ -151,6 +154,30 @@ namespace GoldCFTCWeekly {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "15.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         private void InitializeComponents() {
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Control;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Name = "button1";
+            this.button1.Text = "Update";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // 表8
+            // 
+            this.表8.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // Count
+            // 
+            this.Count.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // discount
+            // 
+            this.discount.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // Sheet1
+            // 
+            this.button1.BindingContext = this.BindingContext;
         }
         
         /// 
